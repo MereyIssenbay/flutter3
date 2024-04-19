@@ -66,10 +66,10 @@ class SongPage extends StatelessWidget {
                                 )
                               ],
                             ),
-                            const Icon(
-                              Icons.favorite_border_outlined,
-                              color: Colors.red,
-                            )
+                            // const Icon(
+                            //   Icons.favorite_border_outlined,
+                            //   color: Colors.red,
+                            // )
                           ],
                         )
                       ],
@@ -86,8 +86,6 @@ class SongPage extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(formatTime(value.currentDuration)),
-                            const Icon(Icons.shuffle),
-                            const Icon(Icons.repeat),
                             Text(formatTime(value.totalDuration)),
                           ],
                         ),

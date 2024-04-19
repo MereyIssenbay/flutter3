@@ -5,22 +5,22 @@ import 'package:music_player_app_tute/models/song.dart';
 class PlaylistProvider extends ChangeNotifier {
   final List<Song> _playlist = [
     Song(
-      songName: 'Song 1',
-      artistName: 'Artist 1',
-      albumPath: 'assets/OIG1.jpeg',
-      audioPath: "lofi.mp3",
+      songName: 'Konil Tolqyny',
+      artistName: 'Merey',
+      albumPath: 'assets/konil.jpeg',
+      audioPath: "konil_tolqyny.mp3",
     ),
     Song(
-      songName: 'Song 2',
-      artistName: 'Artist 2',
-      albumPath: 'assets/OIG2.jpeg',
-      audioPath: "lofi.mp3",
+      songName: 'Kerbez Sulu',
+      artistName: 'Merey',
+      albumPath: 'assets/sulu.jpeg',
+      audioPath: "sulu.mp3",
     ),
     Song(
-      songName: 'Song 3',
-      artistName: 'Artist 3',
-      albumPath: 'assets/OIG3.jpeg',
-      audioPath: "lofi.mp3",
+      songName: 'Papuri',
+      artistName: 'Merey',
+      albumPath: 'assets/papuri.jpeg',
+      audioPath: "mix.mp3",
     )
   ];
 
