@@ -128,9 +128,8 @@ class PlaylistProvider extends ChangeNotifier {
 ```
 
 Provides methods for playing, pausing, resuming, seeking, and toggling between songs.
-The play() method plays the selected song using the AudioPlayer instance.
-pause() and resume() methods pause and resume audio playback respectively.
-pauseOrResume() method toggles between pausing and resuming playback based on the current state.
-seek(Duration duration) method allows seeking to a specific position in the currently playing track.
-playNextSong() and playPreviousSong() methods handle playing the next and previous songs in the playlist.
-Listeners are set up to track the current and total duration of the playing track, updating UI accordingly.
+- The play() method plays the selected song using the AudioPlayer instance.
+- pause() and resume() methods pause and resume audio playback respectively.
+- pauseOrResume() method toggles between pausing and resuming playback based on the current state.
+- seek(Duration duration) method allows seeking to a specific position in the currently playing track.
+- playNextSong() and playPreviousSong() methods handle playing the next and previous songs in the playlist.
