@@ -1,16 +1,31 @@
-# week3_4
+# Music Player App
 
-A new Flutter project.
+This is a simple music player app built using Flutter.
+
+## Overview
+
+The app allows users to create playlists, view songs in the playlist, and play music. It supports basic functionalities like play, pause, resume, skip to next/previous song, and seek through the track.
+
+## Features
+
+- View list of songs in the playlist
+- Play, pause songs
+- Skip to next/previous song
+- Seek through the track
+- Dark mode support
+
+## Screenshots
+
+[Include screenshots of your app here if you have any]
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project locally, make sure you have Flutter installed on your system. Then, clone this repository and run the following commands:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter pub get
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
