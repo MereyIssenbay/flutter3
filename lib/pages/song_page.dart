@@ -36,8 +36,6 @@ class SongPage extends StatelessWidget {
                           onPressed: () => Navigator.pop(context),
                           icon: const Icon(Icons.arrow_back)),
                       const Text("P L A Y L I S T "),
-                      IconButton(
-                          onPressed: () {}, icon: const Icon(Icons.menu)),
                     ],
                   ),
                   const SizedBox(
